@@ -13,33 +13,20 @@
 // GOOD LUCK 😀
 
 // Test 1
-const markMass = 78;
-const markHeight = 1.69;
-const johnMass = 92;
-const johnHeight = 1.95;
+// const markMass = 78;
+// const markHeight = 1.69;
+// const johnMass = 92;
+// const johnHeight = 1.95;
+
+// Test 2
+const markMass = 95;
+const markHeight = 1.88;
+const johnMass = 85;
+const johnHeight = 1.76;
 
 const markBMI = markMass / markHeight ** 2;
-const anotherMarkBMI = markMass / (markHeight * markHeight);
-console.log(markBMI, anotherMarkBMI);
 
-const johnBMI = johnMass / johnHeight ** 2;
-const anotherJohnBMI = johnMass / (johnHeight * johnHeight);
-console.log(johnBMI, anotherJohnBMI);
+const johnBMI = johnMass / (johnHeight * johnHeight);
 
 const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
-
-// Test 2
-const markMass2 = 95;
-const markHeight2 = 1.88;
-const johnMass2 = 85;
-const johnHeight2 = 1.76;
-
-const markBMI2 = markMass2 / markHeight2 ** 2;
-console.log(markBMI2);
-
-const johnBMI2 = johnMass2 / (johnHeight * johnHeight);
-console.log(johnBMI2);
-
-const markHigherBMI2 = markBMI2 > johnBMI2;
-console.log(markHigherBMI2);
