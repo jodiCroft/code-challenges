@@ -34,7 +34,7 @@
 
 // REFACTORED CODE BELOW
 // Improvements:
-//     Only one Object
+//     Only one object
 //     Decremented count of each char as we checked through the object and return false if the count
 //     is checked and it's 0 or it's not in there at all
 //     Renamed a few variables to be more readable
